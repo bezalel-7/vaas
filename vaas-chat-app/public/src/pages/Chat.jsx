@@ -48,7 +48,7 @@ export default function Chat() {
   return (
     <>
       <Container>
-        <div clasqme="container">
+        <div className="container">
           <Contacts contacts={contacts} changeChat={handleChatChange} />
           {currentChat === undefined ? (
             <Welcome />
